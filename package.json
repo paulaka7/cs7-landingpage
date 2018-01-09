@@ -1,0 +1,19 @@
+{
+  "name": "cs7-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulaka7/cs7-landingpage.git"
+  },
+  "author": "paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulaka7/cs7-landingpage/issues"
+  },
+  "homepage": "https://github.com/paulaka7/cs7-landingpage#readme"
+}
