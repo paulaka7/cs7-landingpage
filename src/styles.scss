@@ -1,0 +1,116 @@
+// GENERAL
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+//COLORS
+
+$grey: #777777;
+$light-grey: #fafafa;
+$dark-grey: #222222;
+
+// HOME
+.home {
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.home__box {
+  padding: 100px 0;
+}
+.home__subtitle {
+  color: white;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.home__title {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 66px;
+  color: white;
+  margin-bottom: 100px;
+}
+.home__button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: 23px;
+  font-weight: 300;
+  padding: 10px 50px;
+}
+//NAVIGATION
+.nav {
+  padding: 50px 0;
+  width: 100%;
+  min-height: 100px;
+}
+.nav__logo {
+  padding: 40px;
+}
+.nav__link {
+  color: white;
+  text-align: right;
+  padding: 0 15px;
+  font-weight: 300;
+  font-size: 18px;
+}
+//SERVICES
+.services__development {
+  padding: 100px 0;
+}
+.services__development-title {
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  color: $dark-grey;
+  span {
+    font-weight: 700;
+  }
+}
+.services__development-content {
+  font-size: 18px;
+  font-weight: 300;
+  color: $grey;
+}
+.services__development-icon {
+  background-image: url('../img/tree.png');
+  background-size: auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.services__branding {
+  @extend .services__development;
+  background-color: $light-grey;
+}
+.services__branding-content {
+  @extend .services__development-content;
+}
+.services__branding-title {
+  @extend .services__development-title;
+}
+.services__branding-icon {
+  @extend .services__development-icon;
+  background-image: url('../img/user.png');
+}
+.services__others {
+  @extend .services__development;
+}
+.services__others-box__title {
+  font-size: 22px;
+  color: $dark-grey;
+}
+.services__others-box__content {
+  @extend .services__development-content;
+}
+.services__others-icon {
+  width: 100%;
+}
+.services__others-container {
+  padding: 20px 0;
+}
